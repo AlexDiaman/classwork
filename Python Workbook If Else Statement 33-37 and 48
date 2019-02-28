@@ -1,0 +1,32 @@
+inte = int(input("Please give an integer: "))
+if inte % 2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
+
+human_year = int(input("How old are you? "))
+if human_year * 1 < 0:
+    print("Error negative age")
+if human_year - 1 == 0:
+    print("Your age in dog years will be 10.5")
+else:
+    adult_age = human_year - 2
+    puppy_year = 10.5 * 2
+    dog_year = adult_age * 7
+    dog_age = puppy_year + dog_year
+    print(f"Your age in dog years is {dog_age}")
+
+letter = input("Please enter a letter: ")
+
+if letter in 'aeiou':
+   print("Is a Vowel")
+elif letter == "y":
+   print("Sometimes a vowel, in other cases,a consonant")
+else:
+   print("Is Not a Vowel")
+
+# Exercise 37
+num_sides = int(input("Please enter the number of sides in the shape: "))
+
+if num_sides == 3:
+   print("Triangle")
